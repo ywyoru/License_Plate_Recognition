@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\Filter">
+      <UniqueIdentifier>{850ef2d3-b108-4ccb-a337-e841556875d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\EdgeDetect">
+      <UniqueIdentifier>{2149b2e0-8a1e-4c07-b66c-a14e6d29803f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Dilate&amp;Erode">
+      <UniqueIdentifier>{1265e2cd-f693-4840-831f-20485315b5f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\LocatePlate">
+      <UniqueIdentifier>{26d04db6-8cdc-4d58-bcf6-5c48a2efaadf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Threshold">
+      <UniqueIdentifier>{01d03444-e3df-4289-9467-168504c66ab9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\preProcess">
+      <UniqueIdentifier>{caecf654-4e73-493a-8a1d-e96cdfe949bf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="canny.cpp">
+      <Filter>源文件\EdgeDetect</Filter>
+    </ClCompile>
+    <ClCompile Include="sobel.cpp">
+      <Filter>源文件\EdgeDetect</Filter>
+    </ClCompile>
+    <ClCompile Include="InteEqualize.cpp">
+      <Filter>源文件\Filter</Filter>
+    </ClCompile>
+    <ClCompile Include="MedianFilter.cpp">
+      <Filter>源文件\Filter</Filter>
+    </ClCompile>
+    <ClCompile Include="Gaussian.cpp">
+      <Filter>源文件\Filter</Filter>
+    </ClCompile>
+    <ClCompile Include="Grad_Jump.cpp">
+      <Filter>源文件\Filter</Filter>
+    </ClCompile>
+    <ClCompile Include="Robert.cpp">
+      <Filter>源文件\EdgeDetect</Filter>
+    </ClCompile>
+    <ClCompile Include="erode_dilate.cpp">
+      <Filter>源文件\Dilate&amp;Erode</Filter>
+    </ClCompile>
+    <ClCompile Include="thresholdTrans.cpp">
+      <Filter>源文件\Threshold</Filter>
+    </ClCompile>
+    <ClCompile Include="areaSearch.cpp">
+      <Filter>源文件\LocatePlate</Filter>
+    </ClCompile>
+    <ClCompile Include="FindConnectedRegion.cpp">
+      <Filter>源文件\LocatePlate</Filter>
+    </ClCompile>
+    <ClCompile Include="pickRect.cpp">
+      <Filter>源文件\LocatePlate</Filter>
+    </ClCompile>
+    <ClCompile Include="hough.cpp">
+      <Filter>源文件\LocatePlate</Filter>
+    </ClCompile>
+    <ClCompile Include="PlateFilter.cpp">
+      <Filter>源文件\LocatePlate</Filter>
+    </ClCompile>
+    <ClCompile Include="PlateLocation.cpp">
+      <Filter>源文件\LocatePlate</Filter>
+    </ClCompile>
+    <ClCompile Include="grayStretch.cpp">
+      <Filter>源文件\Filter</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="rgb2gray.cpp">
+      <Filter>源文件\preProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="rgb2hsv.cpp">
+      <Filter>源文件\preProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="img_SaveLoad.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="img.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="README.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
